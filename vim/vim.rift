@@ -1,0 +1,20 @@
+.NAME
+vim
+
+.MAINTAINER
+Bram Moolenaar
+
+.DESCRIPTION
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
+
+.DEPENDENCIES
+git
+make
+clang
+libtool-bin
+ncurses
+
+.BUILD
+git clone https://github.com/vim/vim.git
+cd vim/src
+sudo make install
